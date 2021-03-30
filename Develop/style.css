@@ -36,6 +36,24 @@ textarea {
   border-top: 1px solid white;
 }
 
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-group {
+  display: flex;
+  max-width: 70%;
+
+}
+
+/* .input-group-prepend {
+  width: 80px;
+  padding: 4px;
+} */
+
 .hour {
   background-color: #ffffff;
   color: #000000;
