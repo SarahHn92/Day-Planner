@@ -11,7 +11,7 @@ var saveBtn = $(".btn" + ".text");
 var textInput = $(".text");
 console.log(textInput);
 
-$(saveBtn).click(localStorage.setItem) ;
+$(saveBtn).click(localStorage.setItem()) ;
 // {
 //     localStorage.textInput;
 // };
