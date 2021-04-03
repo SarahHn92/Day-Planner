@@ -95,19 +95,11 @@ textarea {
   color: white;
 }
 
-/* .saveBtn {
-  border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: #06aed5;
-  color: white;
-} */
 
 .saveBtn {
   background-color: darkturquoise;
   color: linen;
   border-radius: 0px 15px 15px 0px;
-  /* float: right; */
   font-size: 1.5em;
   width: 100%;
   height: 100%;
@@ -124,6 +116,6 @@ ol {
 .saveBtn:hover {
   font-size: 30px;
   transition: all 0.08s ease-in;
-  /* TODO: It seems like clicking on the save button during 
+  /* It seems like clicking on the save button during 
   the hover transition causes the page to refresh */
 }
